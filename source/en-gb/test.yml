@@ -1,0 +1,56 @@
+---
+en:
+  activemodel:
+    attributes:
+      scope_filters/petition_query_filter:
+        admin_status: panosgithub
+        country: Country
+        source: Source
+        locale: Locale
+        ended_type: Ended Campaigns
+      signature_upload:
+        csv: CSV File
+        do_not_send_email: Suppress thanks-for-signing and encouragement emails
+        email_opt_in_type_id: Email Opt-In Type
+  actions:
+    add_petition_to_effort:
+      in_other_effort: already belongs to a different effort
+      in_this_effort: is already in the effort
+      missing_target: has no decision maker
+      target_already_has_petition: already has a petition for the same decision maker
+    create_petition_for_target:
+      truncated_note: Petition title was automatically truncated due to length constraints
+    delete_petition_data:
+      petition_ended_reason: "Inactive petition was anonymized on %{anonymization_date}."
+    merge_locales:
+      cannot_merge: "Cannot merge locales: %{errors}"
+      no_merge_with_self: A locale cannot be merged with itself
+      not_an_org_locale: "%{loc} is not one of the organisation's locales"
+    moderate_inappropriate_petition_edits:
+      cannot_approve_with_status: "Petition cannot be approved with status %{admin_status}"
+      cannot_mark_as_inappropriate: "Petition cannot be set to inappropriate with status %{admin_status}"
+    process_abandoned_petition:
+      cannot_delete_target: Target cannot be deleted
+      cannot_keep_petition_and_delete_target: Target cannot be deleted unless petition is also deleted
+      cannot_publish_published_target: Target that is already published cannot be published again
+      leader_choice_keep: Keep
+      leader_choice_remove: Remove
+      leave_unreviewed: Moderate Later
+      petition_choice_delete: Delete
+      petition_choice_launch: Launch
+      target_choice_delete: Delete
+      target_choice_keep_published: Keep
+      target_choice_keep_unpublished: Keep Unpublished
+      target_choice_publish: Publish
+    effort_conversion:
+      email_captured: Email Captured
+      petition_created: Petition Created
+      user_attached: User Attached
+      launched: Launched
+      unlaunched: Unlaunched
+    queries:
+      exports:
+        signatures_export:
+          end_date_cannot_be_earlier_than_start_date: cannot be earlier than the start date
+    update_email_opt_in_type_for_member:
+      failure: Could not update email opt-in type for member
