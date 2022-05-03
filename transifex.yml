@@ -12,4 +12,4 @@ git:
     source_file_extension: strings
     source_language: en_US
     source_file_dir: Quicksilver/Nibs/en.lproj
-    translation_files_expression: 'Quicksilver/Nibs/<lang>.lproj'
+    translation_files_expression: 'Quicksilver/Nibs/<lang>/'
