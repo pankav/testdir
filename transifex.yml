@@ -1,15 +1,8 @@
 git:
- filters:
-  - filter_type: dir
-    file_format: YAML_GENERIC
-    source_file_extension: yaml
-    source_language: en_GB
-    source_file_dir: source/en-gb/
-    translation_files_expression: 'translations/<lang>/'
-    
+ filters:   
   - filter_type: dir
     file_format: STRINGS
     source_file_extension: strings
     source_language: en_US
-    source_file_dir: Quicksilver/Nibs/enlproj
-    translation_files_expression: 'Quicksilver/Nibs/<lang>/'
+    source_file_dir: Quicksilver/Nibs/en.lproj
+    translation_files_expression: 'Quicksilver/Nibs/<lang>.lproj/'
