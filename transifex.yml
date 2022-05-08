@@ -6,3 +6,15 @@ git:
     source_language: en_US
     source_file_dir: Quicksilver/Nibs/en_US.lproj/
     translation_files_expression: 'Quicksilver/Nibs/<lang>.lproj/'
+
+settings:
+  language_mapping:
+    es_MX: es-MX
+    cy_GB: cy
+    pt_BR: pt-BR
+    en_US: en
+    nb_NO: nb-NO
+    es_ES: es-ES
+    zh_TW: zh-Hant
+    zh_CN: zh-Hans
+    ca: ca-ES
