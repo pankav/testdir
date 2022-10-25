@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../authentication/authentication.rst:2 09a20d5f1c5d40338172cd9ef3ac03c2
 msgid "Authentication"
-msgstr "Αυθεντικοποίηση"
+msgstr "Αυθεντικοποιηση"
 
 #: ../../authentication/authentication.rst:4 68204451372d463d982865bb94be7f83
 msgid ""
-"Το Mautic χρησιμοποιεί βασικό έλεγχο ταυτότητας για χρήστες, ωστόσο υπάρχει η δυνατότητα "
-"ενσωμάτωση με έναν πάροχο SAML SSO - Single Sign-On -"
-msgstr ""
+"Mautic uses basic authentication for Users, however there is the ability to "
+"integrate with a SAML SSO - Single Sign-On - provider."
+msgstr "Δοκιμη2"
 
 Footer
 © 2022 GitHub, Inc.
