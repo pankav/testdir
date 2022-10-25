@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../authentication/authentication.rst:2 09a20d5f1c5d40338172cd9ef3ac03c2
 msgid "Authentication"
-msgstr ""
+msgstr "Αυθεντικοποίηση"
 
 #: ../../authentication/authentication.rst:4 68204451372d463d982865bb94be7f83
 msgid ""
