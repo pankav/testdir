@@ -26,6 +26,3 @@ msgid ""
 "Mautic uses basic authentication for Users, however there is the ability to "
 "integrate with a SAML SSO - Single Sign-On - provider."
 msgstr "Δοκιμη22"
-
-Footer
-© 2022 GitHub, Inc.
